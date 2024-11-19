@@ -1,0 +1,35 @@
+!!!
+%html
+  %head
+    %title= content_for(:title) || "X E R A E N"
+    %meta{name: "viewport", content: "width=device-width,initial-scale=1"}
+    %meta{name: "apple-mobile-web-app-capable", content: "yes"}
+    = csrf_meta_tags
+    = csp_meta_tag
+
+    = yield :head
+
+    -#
+      %link{rel: "manifest", href: "/manifest.json"}
+      %link{rel: "icon", href: "/icon.png", type: "image/png"}
+      %link{rel: "icon", href: "/icon.svg", type: "image/svg+xml"}
+      %link{rel: "apple-touch-icon", href: "/icon.png"}
+    %link{rel: "stylesheet", href: "/assets/css/style.css"}
+    %link{rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.15.4/css/all.css"}
+    %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Share+Tech+Mono"}
+    %link{rel: "icon", href: "/assets/images/profile.jpg", type: "image/x-icon"}
+    = stylesheet_link_tag "xeraen", "data-turbo-track": "reload"
+    = javascript_importmap_tags
+
+  %body
+    .profilePicture
+      %a{href: "/"}
+        %img{src: "/assets/images/profile.jpg", alt: "Profile Picture"}
+
+    #logo
+      %a{href: "/"}
+        %img{src: "/assets/images/x-logo-350.png", alt: "XERAEN Logo"}
+
+    %br
+
+    = yield
