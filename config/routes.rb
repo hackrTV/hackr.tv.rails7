@@ -12,8 +12,13 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "application#index"
 
+  get "videos/index"
+  get "videos/show"
+
   namespace :mobile do
-    get "/mobile", to: "base#index"
+    get "mobile", to: "base#index"
+    get "videos/index"
+    get "videos/show"
   end
 
   namespace :xeraen do
