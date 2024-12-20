@@ -17,14 +17,18 @@ Rails.application.routes.draw do
 
   namespace :mobile do
     get "mobile", to: "base#index"
-    get "videos/index"
-    get "videos/show"
+    get "/", to: "base#index"
+    get "/*any", to: "base#index"
+    # get "videos/index"
+    # get "videos/show"
   end
 
   namespace :xeraen do
     get "/", to: "home#index"
+    get "/*any", to: "home#index"
     namespace :mobile do
-      get "/", to: "base#index"
+      get "/", to: "home#index"
+      get "/*any", to: "home#index"
     end
   end
 end

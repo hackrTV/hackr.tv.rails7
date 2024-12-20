@@ -9,6 +9,11 @@
 
     = yield :head
 
+    -#
+      %link{rel: "manifest", href: "/manifest.json"}
+      %link{rel: "icon", href: "/icon.png", type: "image/png"}
+      %link{rel: "icon", href: "/icon.svg", type: "image/svg+xml"}
+      %link{rel: "apple-touch-icon", href: "/icon.png"}
     %link{rel: "stylesheet", href: "/assets/css/style.css"}
     %link{rel: "stylesheet", href: "https://use.fontawesome.com/releases/v5.15.4/css/all.css"}
     %link{rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Share+Tech+Mono"}
@@ -17,18 +22,14 @@
     = javascript_importmap_tags
 
   %body
+    .profilePicture
+      %a{href: "/"}
+        %img{src: "/assets/images/profile.jpg", alt: "Profile Picture"}
+
     #logo
-      %a{href: "/xeraen"}
-        X E R A E N
+      %a{href: "/"}
+        %img{src: "/assets/images/x-logo-350.png", alt: "XERAEN Logo"}
+
     %br
-    %div
-      \- part of
-      %a{href: "https://hackr.tv"}= "The.CyberPul.se"
-    %div
-      %br
-      %a{href: "https://x.com/XERAEN", target: "_blank"}
-        x.com/xeraen
-      %br
-      %br
 
     = yield

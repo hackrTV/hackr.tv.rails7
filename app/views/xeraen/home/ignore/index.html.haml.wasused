@@ -1,0 +1,145 @@
+.description
+  Endeavoring to 
+  %a{:href => "https://www.youtube.com/watch?v=MWSjCJQhr1o", :target => "_blank"}
+    \#EndGovCorpNOW
+
+%br
+
+%h2.sectionHeader
+  FEATURED RELEASE
+.links
+  .centered-div
+    %iframe{:seamless => "", :src => "https://bandcamp.com/EmbeddedPlayer/album=3527856760/size=large/bgcol=333333/linkcol=9a64ff/tracklist=false/transparent=true/", :style => "border: 0; width: 350px; height: 470px;"}
+      %a{:href => "https://xeraen.bandcamp.com/album/xordium"} XORDIUM by ＸＥＲＡＥＮ
+    .centered-div
+      %p
+        Listen on: 
+      %p
+        %a{:href => "https://open.spotify.com/album/5Wu1CitYR7bsz3pP3VYdLj?si=m1jeWlA8Rpujx2Xnt6I__g", :target => "_blank"}
+          Spotify
+         | 
+        %a{:href => "https://music.apple.com/us/album/xordium-single/1772402715", :target => "_blank"}
+          Apple
+         | 
+        %a{:href => "https://xeraen.bandcamp.com/album/xordium", :target => "_blank"}
+          Bandcamp
+
+%hr
+
+%h2.sectionHeader
+  OTHER RECENT RELEASES
+.links
+  .centered-div
+    %a{:href => "/tracks/dogs-can-grow-beards-all-over/"}>
+      %img{:src => "/assets/images/covers/dogs-can-grow-beards-all-over.jpg", :width => "250"}
+       
+    %a{:href => "/tracks/dream-surprise/"}
+      %img{:src => "/assets/images/covers/dream-surprise.jpg", :width => "250"}
+
+  %br
+
+  .centered-div
+    %a{:href => "/tracks/birdo/"}>
+      %img{:src => "/assets/images/covers/birdo.jpg", :width => "250"}/
+       
+    %a{:href => "/tracks/our-city/"}
+      %img{:src => "/assets/images/covers/our_city.jpg", :width => "250"}/
+
+%hr
+
+%h2.sectionHeader
+  MUSIC
+.links
+  %a.link{:href => "https://open.spotify.com/artist/0nDs8RZN66dnOgJKa89FvV?si=G1wzaIddTI6m28g7oGp5cw", :target => "_blank"}
+    %i.fab.fa-spotify>  
+    Spotify
+  %a.link{:href => "https://music.apple.com/us/artist/xeraen/1565857265", :target => "_blank"}
+    %i.fab.fa-apple>  
+    Apple Music
+  %a.link{:href => "https://XERAEN.bandcamp.com", :target => "_blank"}
+    %i.fab.fa-bandcamp>  
+    Bandcamp
+  %a.link{:href => "https://soundcloud.com/xeraen", :target => "_blank"}
+    %i.fab.fa-soundcloud>  
+    SoundCloud
+
+%hr
+
+%h2.sectionHeader
+  SOCIAL MEDIA
+.links
+  %a.link{:href => "https://youtube.com/@XERAEN", :target => "_blank"}
+    %i.fab.fa-youtube>  
+    YouTube
+  %a.link{:href => "https://x.com/XERAEN", :target => "_blank"}
+    %i.fab.fa-x> 𝕏 
+    X.com/Twitter
+  %a.link{:href => "https://instagram.com/XERAEN", :target => "_blank"}
+    %i.fab.fa-instagram>  
+    Instagram
+  %a.link{:href => "https://github.com/XERAEN", :target => "_blank"}
+    %i.fab.fa-github>  
+    GitHub
+
+%hr
+
+%h2.sectionHeader
+  OTHER PROJECTS
+.links
+  %a.link{:href => "https://hackr.tv", :target => "_blank"}
+    %i.fab.fa-external-link>  
+    The.CyberPul.se
+
+%hr
+
+%h2.sectionHeader
+  INACTIVE PROJECTS
+.links
+  %a.link{:href => "https://linktr.ee/EtheriaMusic", :target => "_blank"}
+    %i.fab.fa-external-link>  
+    Etheria
+    %br
+    (Gothic Metal, on hiatus)
+  %a.link{:href => "https://open.spotify.com/artist/6ewM3eW3X7B23fklUowps4", :target => "_blank"}
+    %i.fab.fa-external-link>  
+    Order of Týr
+    %br
+    (Video Game Metal, 2006-2018)
+  %a.link{:href => "https://armsofgoro.bandcamp.com", :target => "_blank"}
+    %i.fab.fa-external-link>  
+    Arms of Goro
+    %br
+    (Metalcore, 2005)
+  %a.link{:href => "https://open.spotify.com/artist/54zZZ9hPXdXpF3UDi7NAm6?si=xGduFwM-S4yGr5d8f0Av7g", :target => "_blank"}
+    %i.fab.fa-external-link>  
+    Alive Through Death
+    %br
+    (Early Metalcore, 1999-2003)
+
+%hr
+
+%h2.sectionHeader
+  FRIENDS
+.links
+  %a.link{:href => "https://open.spotify.com/artist/665lBu8eh2ZXdDsWhZOgvL?si=QgqQgaFiTna9z8OIM3yUKA", :target => "_blank"}
+    %i.fab.fa-spotify>  
+    Ashlinn
+  .videoWrapper
+    %iframe{:allow => "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", :allowfullscreen => "", :frameborder => "0", :height => "315", :referrerpolicy => "strict-origin-when-cross-origin", :src => "https://www.youtube.com/embed/wHcNRRwlRZs?si=xv9-y1gCY9Q9GcLw", :title => "YouTube video player", :width => "560"}
+
+  %br
+
+  %a.link{:href => "https://youtube.com/@MichaelKTV", :target => "_blank"}
+    %i.fab.fa-youtube>  
+    MichaelK
+  .videoWrapper
+    %iframe{:allow => "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", :allowfullscreen => "", :frameborder => "0", :height => "315", :referrerpolicy => "strict-origin-when-cross-origin", :src => "https://www.youtube.com/embed/G16T-EoJs18?si=hKGee7HkpHOen-CM", :title => "YouTube video player", :width => "560"}
+
+  %br
+
+  %a.link{:href => "https://youtube.com/@circuitsoldiers", :target => "_blank"}
+    %i.fab.fa-youtube>  
+    circuitsoldiers
+  .videoWrapper
+    %iframe{:allow => "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share", :allowfullscreen => "", :frameborder => "0", :height => "315", :referrerpolicy => "strict-origin-when-cross-origin", :src => "https://www.youtube.com/embed/yeAVd7xthLc?si=2VUxkFlxBl_-5eHw", :title => "YouTube video player", :width => "560"}
+.bottomPadding
