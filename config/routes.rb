@@ -12,6 +12,8 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   root "application#index"
 
+  resource "linkz", only: :index
+
   get "videos/index"
   get "videos/show"
 
